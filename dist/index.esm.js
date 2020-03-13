@@ -4459,7 +4459,7 @@ function (_Component) {
                 listIndex: index,
                 style: rowStyle,
                 getPrevRow: function getPrevRow() {
-                  return _this5.reeData[index - 1] || null;
+                  return _this5.treeData[index - 1] || null;
                 },
                 matchKeys: matchKeys,
                 swapFrom: swapFrom,
