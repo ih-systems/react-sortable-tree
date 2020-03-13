@@ -4432,8 +4432,7 @@ function (_Component) {
           return React__default.createElement(lib_1, {
             style: {
               height: height,
-              width: width,
-              color: 'red'
+              width: width
             }
           }, React__default.createElement(ScrollZoneVirtualList, _extends({}, scrollToInfo, {
             dragDropManager: dragDropManager,
